@@ -3,7 +3,7 @@
 Scripts here are related to fMRI dataset 
 'studyforrest_movie_denoised'(https://openneuro.org/datasets/ds001769).
 
-# denoise procedure
+# Denoise procedure
 In the 'studyforrest_movie_denoised', we denoised the studyforrest 
 audio-visual movie fMRI data(https://openneuro.org/datasets/ds000113) 
 following a four-step procedure including 1.preprocessing, 
@@ -27,7 +27,7 @@ Discription: Classification of ICs was done manually using Melview
 Discription: performed with FSL’s MELODIC (version 3.15)
 Code: /artifact-IC_removal.sh
 
-# technical validation
+# Technical validation
 Additionally, the technical quality of the datasets was validated in
 two aspects, temporal signal-to-noise ratio (tSNR) and 
 inter-subject correlation (ISC)
