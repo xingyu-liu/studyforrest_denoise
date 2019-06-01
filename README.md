@@ -9,21 +9,21 @@ audio-visual movie fMRI data(https://openneuro.org/datasets/ds000113)
 following a four-step procedure including 1.preprocessing, 
 2.ICA decomposition, 3.IC classification and 4.artifacts removal.
 
-1. preprocessing
+1. Preprocessing  
 Discription: performed using feat (FMRIB Expert Analysis Tool 
 version 6.00, part of FMRIB's Software Library [www.fmrib.ox.ac.uk/fsl])  
 Code: /preprocessing.sh
 
-2. ICA decomposition
+2. ICA decomposition  
 Discription: performed with a probabilistic ICA algorithm implemented 
 in the FSL’s MELODIC version 3.15  
 Code: /MELODIC_ICA.sh
 
-3. IC classification
+3. IC classification  
 Discription: Classification of ICs was done manually using Melview
 (http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Melview).
 
-4. artifacts removal
+4. Artifacts removal  
 Discription: performed with FSL’s MELODIC version 3.15  
 Code: /artifact-IC_removal.sh
 
