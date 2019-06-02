@@ -10,13 +10,14 @@ following a four-step procedure including 1.preprocessing,
 2.ICA decomposition, 3.IC classification and 4.artifacts removal.
 
 1. Preprocessing  
-Discription: performed using feat (FMRIB Expert Analysis Tool 
-version 6.00, part of FMRIB's Software Library [www.fmrib.ox.ac.uk/fsl])  
+Discription: performed using FEAT in FSL version 6.00 
+(https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/).  
 Code: /preprocessing.sh
 
 2. ICA decomposition  
 Discription: performed with a probabilistic ICA algorithm implemented 
-in the FSL’s MELODIC version 3.15  
+in the FSL’s MELODIC version 3.15 
+(https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MELODIC).  
 Code: /MELODIC_ICA.sh
 
 3. IC classification  
